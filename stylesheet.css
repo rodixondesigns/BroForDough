@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*header*/
+
+#logo {
+position: absolute;
+float: left;  
+margin-top: 20px;
+margin-left: 20px; 
+z-index: 9999;
+width: 20%; 
+height: auto;
+}
+
+/* TOP NAV */ 
+
+#nav {
+    position: absolute; 
+    z-index: 9999;
+    list-style-type: none;
+    display: block;
+    margin-left: 50%; 
+    width: 40%;
+    padding-right: 3%;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    opacity: .9;  
+}
+
+#nav li {
+    float: right; 
+}
+
+#nav li a {
+    color: #ffffff;
+    text-align: center;
+    transition: .3s;
+    font-family: 'londrina solid', cursive; 
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover:not(.active) {
+    color: #E87E04;
+}
+
+#nav .active {
+    color: #E87E04;
+}
+ 
+@media screen and (min-width: 600px) {
+#nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+#front-image {
+    position: relative; 
+    float: left; 
+    width: 100%; 
+    height: auto; 
+    z-index: 100; 
+    margin: 0;  
+}	
+  
+H1, H2 {
+	font-family: 'londrina solid', cursive; 
+	color: #34495E;   
+  }
+  
+H3, H4, H5, H6 {
+	font-family: 'lato', sans serif;
+	color: #34495E;
+}
+
+section-title {
+	margin: 5%;
+	margin-bottom: 10px;  
+	width: 40%; 
+	position: relative; 
+	float: left;	
+	font-size: 36px;
+	font-family: 'londrina solid', cursive;
+	color: #34495E; 
+	line-height: 115%; 
+}
+
+section-text {
+	margin: 5%;
+	margin-top: 10px; 
+	width: 40%;  
+	position: relative; 
+	float: left;	
+	font-size: 22px;
+	font-family: 'lato', sans serif;
+	color: #34495E; 
+	line-height: 115%; 
+}
+
+.slider {
+	max-width: 1000px; 
+	height: auto; 
+	position: relative; 
+	margin: 0 10% 5% 10%;	
+}
+
+.slider-left {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	width: 30px;
+	height: 30px;
+	left: 45%; 
+	color: #34495E; 
+	overflow: hidden;
+	font-size: 20px;
+	z-index: 1 !important;
+}
+
+.slider-right {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	width: 30px;
+	height: 30px;
+	left:55%; 
+	color: #34495E; 
+	overflow: hidden;
+	font-size: 20px;
+	z-index: 1 !important;
+	align-text: center;  
+}
+
+.question-image {
+	width: 35%; 
+	height: auto;
+	margin: -5% 5% 0 10%;
+	float: left; 
+	position: relative;	
+}
+
+question-text {
+	width: 40%; 
+	height: auto;
+	position:relative;	
+	float: right;
+	font-size: 28px; 
+	font-family: 'lato', sans serif;
+	color: #34495E;
+	margin-bottom: 25px; 
+}
+
+question-text::first-letter {
+	font-size: 200%;
+    color: #E87E04;
+	font-family: 'londrina solid', cursive;
+}
+    
